@@ -37,13 +37,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 
 
 
+
+
+
+
+
 //MAIN
     div#mainContainer {
         main {
             
             .storyGrid {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                    }
 
+                    .one {
+                        grid-column: 1 / span 3;
+                        grid-row: 1 / span 2;
                     }
                 }
             }
@@ -59,17 +68,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 
 
 
+
         div#footerContainer {
 
             footer {
-                background-color: ligthgray;
+                background-color: lightgray;
 
 
 
                 .footerGrid {
                     display: grid;
                     margin: 0 2vw;
-                    grid-template-columns: 1fr;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
                     grid-template-rows: auto;
                      }
 

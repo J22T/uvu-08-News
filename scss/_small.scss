@@ -47,7 +47,7 @@ nav {
         display: block;
         padding: .8rem 2%;
         text-decoration: none;
-        color: black;
+        color: white;
         border-top: 1px solid rgba(0, 0, 0, 0.5);
     }
 
@@ -81,7 +81,7 @@ main {
 .storyGrid {
     display: grid;
     margin: 0 2vw;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
     span {
@@ -120,7 +120,10 @@ div#footerContainer {
 
     footer {
 
-        background-color: ligthgray;
+
+
+        .footerGrid {
+        background-color: lightgray;
 
             h3 {
                 font-size: 18px;
@@ -132,13 +135,16 @@ div#footerContainer {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
+            }
 
-                a {
+               ul li a {
                     text-decoration: none;
                 }
 
-
         }
+
+
+
     }
 }
 

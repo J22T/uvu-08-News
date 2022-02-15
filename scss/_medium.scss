@@ -6,13 +6,50 @@ div#mainContainer {
 main {
     
     .storyGrid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
 
         span {
             font-size: 1rem;
-            text-align: center;
-            font-size: .75rem;
                 }
+
+                .one {
+                    grid-column: 1 / span 3;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+div#footerContainer {
+
+    footer {
+
+        .footerGrid {
+            display: grid;
+            margin: 0 2vw;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+
+        background-color: ligthgray;
+
+            h3 {
+                font-size: 18px;
+                padding-left: 2rem;
+            }
+            
+
+            ul li {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+                a {
+                    text-decoration: none;
+                }
+
             }
         }
     }
