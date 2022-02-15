@@ -542,6 +542,13 @@ div#footerContainer footer ul li a {
 }
 
 @media only screen and (min-width: 560px) and (min-width: 35em) {
+  .storyGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .storyGrid span {
+    font-size: 1rem;
+  }
+
   .parent {
     grid-template-columns: 1fr 1fr;
   }
