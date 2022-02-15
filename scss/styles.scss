@@ -1,0 +1,15 @@
+@import "normalize";
+
+@import "variables";
+
+@import "small";
+
+@media only screen and (min-width: 560px) {
+    @import "medium";
+} /* end of media query */
+
+// 64rem = 1028px (baesfront = 16px)
+@media only screen and (min-width: 1140px) {
+    @import "large";
+
+} /* end of media query */

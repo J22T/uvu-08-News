@@ -1,0 +1,161 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* body rules */
+body {
+    font-family: $fontFamily;
+    font-weight: $regularWeight;
+    font-size: 16px;
+}
+
+
+
+div#headerContainer {
+    width: 100%;
+
+    header div {
+        margin: 2rem;
+    }
+}
+
+
+
+
+//NAV
+nav {
+    background-color: darken($menuColor, 40%);
+    font-family: $fontFamily;
+
+    button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color: black;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    ul li.active a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+    }
+
+    ul.hide {
+        display: none;
+    }
+}
+//END NAV
+
+
+
+
+div#mainContainer {
+
+main {
+
+
+
+
+
+
+.storyGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    span {
+        display: block;
+        text-align: center;
+        font-size: .75rem;
+    }
+
+    .one, .two {
+        padding: .5rem 2vw;
+    }
+
+    .one img, two img {
+        width: 100%;
+    }
+
+    .lead {
+        grid-column: 1 / span 2;
+    }
+}
+
+    .parent {
+        display: grid;
+        margin: 0 2vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        }
+
+
+
+
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+div#footerContainer {
+
+    footer {
+
+        background-color: ligthgray;
+
+            h3 {
+                font-size: 18px;
+                padding-left: 2rem;
+            }
+            
+
+            ul li {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+    }
+}
+
+
+
+
+// CLEARFIX//
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

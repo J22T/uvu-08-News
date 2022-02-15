@@ -1,0 +1,39 @@
+// 64em = 1028px when basefront is 16px
+
+@media only screen and (min-width: 64rem) {
+    nav {
+
+        background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+
+        button {
+            display: none;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul.hide {
+            display:block;
+        }
+
+        ul li a {
+            border: none;
+            border-right: 1px solid rgba(0, 0, 0, 0.3);
+            padding: .6rem 1rem;
+        }
+
+        ul {
+            margin-left: 2%;
+        }
+    }
+
+    .parent {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
