@@ -1,6 +1,8 @@
 // 64em = 1028px when basefront is 16px
 
 @media only screen and (min-width: 64rem) {
+
+//NAV
     nav {
 
         background: rgb(2,0,36);
@@ -32,8 +34,62 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
         }
     }
 
-    .parent {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
-}
+
+
+//MAIN
+    div#mainContainer {
+        main {
+            
+            .storyGrid {
+                grid-template-columns: 1fr 1fr 1fr;
+
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+        div#footerContainer {
+
+            footer {
+                background-color: ligthgray;
+
+
+
+                .footerGrid {
+                    display: grid;
+                    margin: 0 2vw;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: auto;
+                     }
+
+                    h3 {
+                        font-size: 18px;
+                        padding-left: 2rem;
+                         }
+                    
+                    ul li {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        }
+
+                    ul li a {
+                        text-decoration: none;
+                        }
+
+
+
+
+            }
+        }

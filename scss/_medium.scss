@@ -2,20 +2,18 @@
 
 @media only screen and (min-width: 35em) {
     
-
+div#mainContainer {
+main {
+    
     .storyGrid {
-
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
         span {
             font-size: 1rem;
+            text-align: center;
+            font-size: .75rem;
+                }
+            }
         }
-        
     }
-
-
-    .parent {
-        grid-template-columns: 1fr 1fr;
-    }
-
 }

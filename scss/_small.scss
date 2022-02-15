@@ -80,7 +80,8 @@ main {
 
 .storyGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin: 0 2vw;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
 
     span {
@@ -97,25 +98,15 @@ main {
         width: 100%;
     }
 
-    .lead {
+    .one {
         grid-column: 1 / span 2;
     }
-}
 
-    .parent {
-        display: grid;
-        margin: 0 2vw;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        }
-
-
-
-
-
-
-
+    .two {
+        text-align: center;
     }
+}
+}
 }
 
 
@@ -145,7 +136,9 @@ div#footerContainer {
                 a {
                     text-decoration: none;
                 }
-            }
+
+
+        }
     }
 }
 
