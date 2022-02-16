@@ -546,6 +546,34 @@ div#footerContainer footer .footer-footer {
 }
 
 @media only screen and (min-width: 560px) and (min-width: 35em) {
+  nav {
+    background: red;
+    background: -moz-linear-gradient(90deg, red 0%, #00b0ff 100%);
+    background: -webkit-linear-gradient(90deg, red 0%, #00b0ff 100%);
+    background: linear-gradient(90deg, red 0%, #00b0ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#00b0ff",GradientType=1);
+  }
+  nav button {
+    display: none;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul.hide {
+    display: block;
+  }
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .6rem 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  nav ul {
+    margin-left: 2%;
+  }
+
   div#mainContainer main .storyGrid {
     grid-template-columns: 1fr 1fr 1fr;
   }

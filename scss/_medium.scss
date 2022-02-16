@@ -1,6 +1,53 @@
 // 35em = 560px when basefront is 16px //
 
 @media only screen and (min-width: 35em) {
+
+
+
+
+    
+
+    //NAV
+    nav {
+
+        background: rgb(255,0,0);
+        background: -moz-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,176,255,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,176,255,1) 100%);
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,176,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#00b0ff",GradientType=1);
+
+        button {
+            display: none;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul.hide {
+            display:block;
+        }
+
+        ul li a {
+            border: none;
+            border-right: 1px solid rgba(0, 0, 0, 0.3);
+            padding: .6rem 1rem;
+            font-family: $fontFamily;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        ul {
+            margin-left: 2%;
+        }
+    }
+
+
+
+
+
+
+
     
 div#mainContainer {
 main {
