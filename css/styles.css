@@ -518,7 +518,7 @@ div#mainContainer main .storyGrid .two {
   text-align: center;
 }
 
-div#footerContainer footer {
+div#footerContainer {
   background-color: lightgray;
 }
 div#footerContainer footer .footerGrid h3 {
@@ -585,6 +585,9 @@ div#footerContainer footer .footer-footer {
   }
 }
 @media only screen and (min-width: 560px) {
+  div#footerContainer {
+    background-color: lightgray;
+  }
   div#footerContainer footer .footerGrid {
     display: grid;
     margin: 0 2vw;
@@ -647,6 +650,9 @@ div#footerContainer footer .footer-footer {
   }
 }
 @media only screen and (min-width: 1140px) {
+  div#footerContainer {
+    background-color: lightgray;
+  }
   div#footerContainer footer {
     background-color: lightgray;
   }
