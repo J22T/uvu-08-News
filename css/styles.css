@@ -506,7 +506,7 @@ div#mainContainer main .storyGrid span {
   font-weight: 700;
 }
 div#mainContainer main .storyGrid .one, div#mainContainer main .storyGrid .two {
-  padding: .5rem 2vw;
+  padding: .5rem;
 }
 div#mainContainer main .storyGrid .one img, div#mainContainer main .storyGrid two img {
   width: 100%;
