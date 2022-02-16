@@ -653,9 +653,6 @@ div#footerContainer footer .footer-footer {
   div#footerContainer {
     background-color: lightgray;
   }
-  div#footerContainer footer {
-    background-color: lightgray;
-  }
   div#footerContainer footer .footerGrid {
     display: grid;
     margin: 0 2vw;
