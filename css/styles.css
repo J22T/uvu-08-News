@@ -483,10 +483,10 @@ nav ul li a {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 nav ul li.active a {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 nav ul.hide {
@@ -502,7 +502,8 @@ div#mainContainer main .storyGrid {
 div#mainContainer main .storyGrid span {
   display: block;
   text-align: center;
-  font-size: .75rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 div#mainContainer main .storyGrid .one, div#mainContainer main .storyGrid .two {
   padding: .5rem 2vw;
@@ -517,7 +518,7 @@ div#mainContainer main .storyGrid .two {
   text-align: center;
 }
 
-div#footerContainer footer .footerGrid {
+div#footerContainer footer {
   background-color: lightgray;
 }
 div#footerContainer footer .footerGrid h3 {
@@ -530,7 +531,12 @@ div#footerContainer footer .footerGrid ul li {
   padding: 0;
 }
 div#footerContainer footer .footerGrid ul li a {
+  color: black;
   text-decoration: none;
+}
+div#footerContainer footer .footer-footer {
+  margin: 1rem;
+  text-align: center;
 }
 
 .clearfix:after {
@@ -570,15 +576,18 @@ div#footerContainer footer .footerGrid ul li a {
   div#footerContainer footer .footerGrid ul li a {
     text-decoration: none;
   }
+  div#footerContainer footer .footer-footer {
+    justify-content: center;
+  }
 }
 /* end of media query */
 @media only screen and (min-width: 1140px) and (min-width: 64rem) {
   nav {
-    background: #020024;
-    background: -moz-linear-gradient(90deg, #020024 0%, #00d4ff 100%);
-    background: -webkit-linear-gradient(90deg, #020024 0%, #00d4ff 100%);
-    background: linear-gradient(90deg, #020024 0%, #00d4ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    background: red;
+    background: -moz-linear-gradient(90deg, red 0%, #00b0ff 100%);
+    background: -webkit-linear-gradient(90deg, red 0%, #00b0ff 100%);
+    background: linear-gradient(90deg, red 0%, #00b0ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#00b0ff",GradientType=1);
   }
   nav button {
     display: none;
@@ -593,6 +602,9 @@ div#footerContainer footer .footerGrid ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
     padding: .6rem 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
   }
   nav ul {
     margin-left: 2%;
@@ -627,6 +639,9 @@ div#footerContainer footer .footerGrid ul li a {
   }
   div#footerContainer footer ul li a {
     text-decoration: none;
+  }
+  div#footerContainer footer .footer-footer {
+    justify-content: center;
   }
 }
 /* end of media query */
